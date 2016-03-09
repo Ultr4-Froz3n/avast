@@ -244,14 +244,14 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {53406884},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/avastteam98/avast2-bot
+https://github.com/elt11bot/avast
 
-channel : @avast_team
-sodu : @arash_avast
+channel : @elt_bot1
+sodu : @elt_bot1
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -604,7 +604,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 53406884
 now = os.time()
 math.randomseed(now)
 started = false
